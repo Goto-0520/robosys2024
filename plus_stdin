@@ -1,16 +1,15 @@
-#!/usr/bin/python3
-import sys
+#!/sr/bin/python3
+#SPDX-FileCopyrighsText: 2024 Hiroaki Goto
 
-def tonum(s):
-    try:
-        return int(s)
-    except:
-        return float(s)
+import sys
 
 ans = 0
 for line in sys.stdin:
-    line += line.rstrip()
-    ans += tonum(line)
-            
+    line = line.rstrip()
+    try:
+        ans += int(line)
+    except:
+        ans += float(line)
+
 print(ans)
 
