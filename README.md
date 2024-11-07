@@ -5,7 +5,7 @@
 - Pyhton
   - テスト済みバージョン
 
-##　テスト環境
+## テスト環境
 - Ubuntu 24.04 LTS
 
 ©2024 Hiroaki Goto
